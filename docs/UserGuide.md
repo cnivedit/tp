@@ -395,6 +395,9 @@ Items:
 
 **Format**: `fulfill-order ORDER_ID`
 
+Note: `ORDER_ID` here refers to the serial number of the order that is printed when the `view-orders` command is used. 
+It does not refer to the `UUID` of the order.
+
 **Sample Output**:
 
 `> fulfill-order 1`
